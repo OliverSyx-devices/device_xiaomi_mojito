@@ -710,4 +710,6 @@
          etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
 </resources>
