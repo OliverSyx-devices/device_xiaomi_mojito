@@ -154,6 +154,9 @@ on boot
     enable vendor.dataqti
     enable vendor.dataadpl
 
+    # Disable kernel logging for better performance
+    write /proc/sys/kernel/printk "0 0 0 0"
+
 on post-fs-data
     # Create directory used by display clients
     mkdir /data/vendor/display 0770 system graphics
