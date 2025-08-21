@@ -125,6 +125,7 @@ BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 TARGET_KERNEL_CONFIG := vendor/mojito_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" \
     LLVM=1 \
     LLVM_IAS=1
 
