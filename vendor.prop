@@ -199,8 +199,8 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Malloc
-ro.config.low_ram=true
-libc.debug.malloc.program=libc_malloc_svelte
+ro.config.low_ram=false
+libc.debug.malloc.program=libc_malloc_default
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
