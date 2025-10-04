@@ -63,7 +63,7 @@ void load_vendor_props() {
     if (hwname.find("sunny") != std::string::npos) {
         device = "sunny";
         fingerprint = "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V14.0.9.0.SKGMIXM:user/release-keys";
-        model = "M2101K7AG";
+        model = "Redmi Note 10";
         name = "sunny_global";
     } else {
         device = "mojito";
