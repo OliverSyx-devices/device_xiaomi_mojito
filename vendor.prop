@@ -142,7 +142,6 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
 # Display
-debug.egl.hw=0
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 debug.mdpcomp.logs=0
@@ -152,7 +151,6 @@ debug.sf.early.sf.duration=16600000
 debug.sf.earlyGl.app.duration=16600000
 debug.sf.earlyGl.sf.duration=16600000
 debug.sf.enable_hwc_vds=0
-debug.sf.hw=0
 debug.sf.late.app.duration=16600000
 debug.sf.late.sf.duration=10500000
 debug.sf.use_phase_offsets_as_durations=1
