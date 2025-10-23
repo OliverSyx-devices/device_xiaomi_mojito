@@ -45,3 +45,8 @@ genfscon sysfs /devices/platform/soc/soc:pwm_vibrator/leds/vibrator             
 
 # EAS control
 genfscon proc /sys/kernel/sched_energy_aware                                    u:object_r:proc_sched_energy_aware:s0
+
+# Wakeup nodes on real SoC paths (for devices like fpc1020, maxim_ds28e16, bq2597x, etc.)
+genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/wakeup[0-101][0-101]/name u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-0065/power_supply/bq2597x-standalone/wakeup[0-101][0-101]/name u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup/wakeup[0-101][0-101]/name u:object_r:sysfs_wakeup:s0
