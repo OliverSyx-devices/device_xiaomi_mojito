@@ -152,6 +152,7 @@ persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
 # Display
+debug.hwui.use_skia_pipeline=false
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 debug.mdpcomp.logs=0
