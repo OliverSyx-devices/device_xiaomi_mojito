@@ -10,7 +10,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     Gallery2 \
     Maps \
-    NexusLauncherRelease \
     org.lineageos.aperture \
     Aperture \
     RCS \
