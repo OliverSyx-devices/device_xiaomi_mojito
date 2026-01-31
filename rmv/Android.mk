@@ -5,6 +5,22 @@ LOCAL_MODULE := rmv
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    AmbientStreaming \
+    AndroidAutoStubPrebuilt \
+    DevicePersonalizationPrebuiltPixel2021 \
+    GoogleRestorePrebuilt \
+    MlkitBarcodeUIPrebuilt \
+    ScribePrebuilt \
+    SecurityHubPrebuilt \
+    TurboPrebuilt \
+    VisionBarcodePrebuilt \
+    WallpaperEffect \
+    DevicePolicyPrebuilt \
+    GoogleTTS \
+    MarkupGoogle \
+    Recorder \
+    talkback \
+    WallpaperEmojiPrebuilt \
     Aperture \
     ApertureLensLauncher \
     Drive \
