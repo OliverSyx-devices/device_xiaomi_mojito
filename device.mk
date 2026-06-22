@@ -464,6 +464,9 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := art/build/boot/boot-image-profile.txt
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+# Enable whole-program R8 Java optimizations for SystemUI and system_server
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SettingsGoogle \
