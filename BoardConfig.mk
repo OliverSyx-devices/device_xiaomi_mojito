@@ -30,6 +30,11 @@ BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# ART
+WITH_DEXPREOPT := true
+DEX_PREOPT_DEFAULT := generate-vdex-and-image
+WITH_DEXPREOPT_DEBUG_INFO := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
