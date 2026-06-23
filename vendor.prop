@@ -160,6 +160,17 @@ persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
 # Display
+dev.pm.dyn_samplingrate=1
+video.accelerate.hw=1
+ro.product.gpu.driver=1
+persist.sys.purple_purging=1
+ro.config.max_starting_bg=8
+ro.sys.fw.bg_apps_limit=20
+persist.sys.ui.hw=true
+ro.fb.mode=1
+debug.egl.hw=1
+debug.composition.type=gpu
+debug.performance.tuning=1
 debug.hwui.use_skia_pipeline=false
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
