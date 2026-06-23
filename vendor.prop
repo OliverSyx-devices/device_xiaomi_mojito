@@ -143,8 +143,16 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
 # Fling
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
+view.scroll_friction=0
+view.touch_slop=2
+touch.deviceType=touchScreen
+touch.orientationAware=1
+touch.pressure.scale=0.001
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=10
+view.minimum_fling_velocity=25
+windowsmgr.max_events_per_sec=150
+ro.min.fling_velocity=12000
 ro.max.fling_velocity=20000
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
