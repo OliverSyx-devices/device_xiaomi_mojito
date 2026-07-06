@@ -18,9 +18,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP := true
-RISING_CHIPSET := Snapdragon 678
+RISING_CHIPSET := Snapdragon678
 RISING_MAINTAINER := OliverSyx
-RISING_PACKAGE_TYPE := VANILLA AOSP
 WITH_GMS := false
 TARGET_USES_AOSP_RECOVERY := true
 
