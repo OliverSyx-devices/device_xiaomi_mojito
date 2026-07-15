@@ -33,4 +33,4 @@ telephony.lteOnCdmaDevice=1
 
 # System
 persist.sys.binary_xml=false
-ro.crdroid.maintainer=Oliversyx
+ro.superior.maintainer=OliverSyx
