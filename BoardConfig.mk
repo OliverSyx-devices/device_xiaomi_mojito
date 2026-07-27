@@ -129,6 +129,8 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
+TARGET_KERNEL_CLANG_COMPILE := true
+KERNEL_CC := /usr/bin/ccache
 TARGET_KERNEL_CONFIG := vendor/mojito_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
